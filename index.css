@@ -88,10 +88,25 @@ h2{
     background-color: rgb(59, 54, 54);
     margin: 20px;
     border-radius: 30px;
-}
-.order, .deliver, .refund, .payment{
-    color: white;
+    padding: 20px;
     font-family: sans-serif;
+}
+.order, .delivery, .refund, .payment{
+    color: white;
+    margin: 20px 10px 10px 20px;
+}
+.order{
+    margin-top: 20px;
+}
+.bank{
+    margin-bottom: 20px;
+}
+.tm{
+    color: red;
+    text-align: center;
+}
+.container-tm h2{
+    color: rgb(248, 95, 95);
 }
 
 
@@ -131,5 +146,8 @@ h2{
     }
     ul li a{
         font-size: 1rem;
+    }
+    .order, .delivery, .refund, .payment{
+        margin: 10px;
     }
 }
