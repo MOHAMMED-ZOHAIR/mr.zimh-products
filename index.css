@@ -84,6 +84,15 @@ h2{
     text-align: center;
     font-size: 1.2rem;
 }
+.container-tm{
+    background-color: rgb(59, 54, 54);
+    margin: 20px;
+    border-radius: 30px;
+}
+.order, .deliver, .refund, .payment{
+    color: white;
+    font-family: sans-serif;
+}
 
 
 @media screen and (max-width: 500px){
