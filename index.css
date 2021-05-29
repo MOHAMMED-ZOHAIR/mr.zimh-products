@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(59, 54, 54);
+    padding: 2rem;
+}
+.header h1{
+    color: red;
+    font-family: cursive;
+    text-align: center;
+}
+.container{
+    margin: 5rem 0;
+}
+.row-1,.row-2,.row-3,.row-4,.row-5,.row-6,.row-7,.row-8,.row-9,.row-10,
+.row-11,.row-12,.row-13,.row-14,.row-15,.row-16,.row-17,.row-18,.row-19,.row-20,
+.row-21,.row-22,.row-23,.row-24,.row-25,.row-26,.row-27,.row-28,.row-29,.row-30,.row-31,.row-32
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+}
+img{
+    min-width: 200px;
+    max-width: 250px;
+    min-height: auto;
+    max-height: 250px;
+}
+.product-container{
+    background-color: rgb(53, 48, 48);
+    padding: 5px 5px 10px 5px;
+    max-width: 250px;
+}
+.name{
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    margin: 5px 5px 0 5px;
+    font-family: sans-serif;
+}
+.price{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: rgb(189, 164, 235);
+    margin: 0 0 5px 5px;
+}
+footer{
+    background-color: rgb(59, 54, 54);
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 3rem 0 3rem;
+}
+ul li {
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+h2{
+    color: white;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+#watsapp, #instagram{
+    color: white;
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+.contact, .about-site{
+    margin-bottom: 3rem;
+}
+.about-site{
+    margin-right: 20px;
+}
+#copyright{
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+@media screen and (max-width: 500px){
+    .header h1{
+        text-align: center;
+    }
+    .container{
+        margin: 3rem 1rem;
+    }
+    .row-1,.row-2,.row-3,.row-4,.row-5,.row-6,.row-7,.row-8,.row-9,.row-10,
+.row-11,.row-12,.row-13,.row-14,.row-15,.row-16,.row-17,.row-18,.row-19,.row-20,
+.row-21,.row-22,.row-23,.row-24,.row-25,.row-26,.row-27,.row-28,.row-29,.row-30,.row-31,.row-32
+{
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    img{
+        max-width: 300px;
+        height: auto;
+    }
+    .product-container{
+        margin-bottom: 20px;
+        max-width: 300px;
+    }
+    .name{
+        margin: 3px 0 0 3px;
+    }
+    .price{
+        margin: 0 0 3px 3px;
+    }
+    #copyright{
+        font-size: 1rem;
+    }
+    #watsapp, #instagram{
+        margin-right: 5px;
+    }
+    ul li a{
+        font-size: 1rem;
+    }
+}
